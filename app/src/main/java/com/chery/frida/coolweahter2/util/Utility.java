@@ -55,7 +55,6 @@ public class Utility {
                     city.setCityCode(cityObject.getInt("id"));
                     city.setProvinceId(provinceId);
                     city.save();
-
                 }
                 return true;
             } catch (JSONException e) {
@@ -80,7 +79,6 @@ public class Utility {
                     county.setWeatherId(countyObject.getString("weather_id"));
                     county.setCityId(cityId);
                     county.save();
-
                 }
                 return  true;
             } catch (JSONException e) {
